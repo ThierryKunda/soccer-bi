@@ -1,0 +1,12 @@
+League,Country,Source,Fixtures Source
+Premier League,UK,https://www.football-data.co.uk/mmz4281/2425/E0.csv,https://www.skysports.com/calendars/football/fixtures/competitions/premier-league
+Scottish Premiership,Scotland,https://www.football-data.co.uk/mmz4281/2425/SC0.csv,https://www.skysports.com/calendars/football/fixtures/competitions/scottish-premiership
+Bundesliga,Germany,https://www.football-data.co.uk/mmz4281/2425/D1.csv,https://www.skysports.com/calendars/football/fixtures/competitions/german-bundesliga
+Serie A,Italy,https://www.football-data.co.uk/mmz4281/2425/I1.csv,https://www.skysports.com/calendars/football/fixtures/competitions/italian-serie-a
+LaLiga,Spain,https://www.football-data.co.uk/mmz4281/2425/SP1.csv,https://www.skysports.com/calendars/football/fixtures/competitions/spanish-la-liga
+Ligue 1,France,https://www.football-data.co.uk/mmz4281/2425/F1.csv,https://www.skysports.com/calendars/football/fixtures/competitions/french-ligue-1
+Eredivisie,Netherlands,https://www.football-data.co.uk/mmz4281/2425/N1.csv,
+Jupiler League,Belgium,https://www.football-data.co.uk/mmz4281/2425/B1.csv,
+Liga,Portugal,https://www.football-data.co.uk/mmz4281/2425/P1.csv,
+Super Lig,Turkey,https://www.football-data.co.uk/mmz4281/2425/T1.csv,
+Super League,Greece,https://www.football-data.co.uk/mmz4281/2425/G1.csv,
