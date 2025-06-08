@@ -7,8 +7,8 @@ import requests as req
 import pandas as pd
 import numpy as np
 
-def fetch_matches_data():
-    leagues_sources = pd.read_csv("data_mapping/leagues_sources.csv")
+def fetch_matches_data(league_sources_path: str = "data_mapping/leagues_sources.csv"):
+    leagues_sources = pd.read_csv(league_sources_path)
     leagues_headers = dict(zip(leagues_sources["League"], leagues_sources["Source"]))
     leagues_headers = {league_name: pd.read_csv(leagues_headers[league_name], nrows=1) for league_name in leagues_headers}
     # Get columns of each league
@@ -61,9 +61,9 @@ def add_league_column(elo: pd.DataFrame, matches: pd.DataFrame):
         return row["Level"]
     elo["League"] = elo.apply(map_league_to_team, axis=1)
 
-def pre_process_elo_data(elo: pd.DataFrame, matches: pd.DataFrame):
-
-    datasets_mapping = pd.read_csv("data_mapping/team_elo_matches_mapping.csv")
+def pre_process_elo_data(elo: pd.DataFrame, matches: pd.DataFrame,
+        team_elo_matches_mapping_path: str = "data_mapping/team_elo_matches_mapping.csv"):
+    datasets_mapping = pd.read_csv(team_elo_matches_mapping_path)
     datasets_mapping.replace({np.nan: None}, inplace=True)
     
     # Update elo team names that are different, looking at the matches dataset
