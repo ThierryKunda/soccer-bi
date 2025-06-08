@@ -5,11 +5,11 @@ Time,Time of match kickoff
 HomeTeam,Home Team
 AwayTeam,Away Team
 FTHG,Full time home team goals
-HG,Full time home team goals
 FTAG,Full time away team goals
 AG,Full time away team goals
 FTR,Full time result
 Res,Full time result
+HTHG,Half time home team goals
 HTAG,Half Time Away Team Goals
 HTR,Half Time Result
 Attendance,Crowd Attendance
