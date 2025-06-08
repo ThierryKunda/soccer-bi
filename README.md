@@ -9,10 +9,8 @@ This project focuses on data mining techniques applied to soccer-related data. T
 - **Visualization**: Presenting insights through charts and dashboards.
 
 ## Objectives
-- Enhance decision-making in soccer management.
-- Provide actionable insights for performance improvement.
-- Focus on predicting match outcomes using historical data and statistical models.
-- Explore trends in team performance, player statistics, and other factors influencing match results.
+- Focus on predicting match outcomes using historical data.
+- Explore trends in team performance and other factors influencing match results.
 
 ## Tools and Technologies
 - Python, Pandas, NumPy
